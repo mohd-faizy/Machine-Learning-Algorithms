@@ -2,6 +2,8 @@
 
 > Logistic regression is a type of regression analysis, is a type of __Predictive Modeling__ technique which is used to find the relationship between a __dependent variable__ (usually known as the “Y” variable) and either one independent variable (the “X” variable) or a __Series__ of independent variables. When two or more independent variables are used to predict or explain the outcome of the dependent variable, this is known as multiple regression.
 
+<img src='https://www.machinelearningplus.com/wp-content/uploads/2017/09/linear_vs_logistic_regression.jpg'>
+
 ### __Regression analysis can be used for three things:__
 
   - __Forecasting the effects or impact of specific changes.__ For example, if a manufacturing company wants to forecast how many units of a particular product they need to produce in order to meet the current demand.
