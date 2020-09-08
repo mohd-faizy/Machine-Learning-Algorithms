@@ -30,6 +30,36 @@ Kernel function is kind of a similarity measure. The inputs are original feature
 SVM is especially effective in cases where number of dimensions are more than the number of samples. When finding the decision boundary, SVM uses a subset of training points rather than all points which makes it memory efficient. On the other hand, training time increases for large datasets which negatively effects the performance.
 
 ## __Naive Bayes__
+Naive Bayes is a supervised learning algorithm used for classification tasks. Hence, it is also called Naive Bayes Classifier.
+
+Naive bayes assumes that features are independent of each other and there is no correlation between features. However, this is not the case in real life. This naive assumption of features being uncorrelated is the reason why this algorithm is called “naive”.
+
+The intuition behind naive bayes algorithm is the bayes’ theorem:
+
+<img src='https://miro.medium.com/max/604/0*-Cq1pA2sfPJhyMDQ.png'>
+
+
+p(A|B): Probability of event A given event B has already occurred
+p(B|A): Probability of event B given event A has already occuured
+p(A): Probability of event A
+p(B): Probability of event B
+Naive bayes classifier calculates the probability of a class given a set of feature values (i.e. p(yi | x1, x2 , … , xn)). Input this into Bayes’ theorem:
+
+<img src='https://miro.medium.com/max/600/0*YCm8DSZwoKLz8Vj4.png'>
+
+p(x1, x2 , … , xn | yi) means the probability of a specific combination of features (an observation / row in a dataset) given a class label. We need extremely large datasets to have an estimate on the probability distribution for all different combinations of feature values. To overcome this issue, naive bayes algorithm assumes that all features are independent of each other. Furthermore, denominator (p(x1,x2, … , xn)) can be removed to simplify the equation because it only normalizes the value of conditional probability of a class given an observation ( p(yi | x1,x2, … , xn)).
+The probability of a class ( p(yi) ) is very simple to calculate:
+
+<img src='https://miro.medium.com/max/508/0*tirvpl3LU-SVEDcX.png'>
+
+Under the assumption of features being independent, p(x1, x2 , … , xn | yi) can be written as:
+
+<img src='https://miro.medium.com/max/679/0*TX0XkmBcywNqJ7bM.png'>
+
+The conditional probability for a single feature given the class label (i.e. p(x1 | yi) ) can be more easily estimated from the data. The algorithm needs to store probability distributions of features for each class independently. For example, if there are 5 classes and 10 features, 50 different probability distributions need to be stored.
+Adding all these up, it became an easy task for naive bayes algorithm to calculate the probability to observe a class given values of features (p(yi | x1, x2 , … , xn) )
+The assumption that all features are independent makes naive bayes algorithm very fast compared to complicated algorithms. In some cases, speed is preferred over higher accuracy. On the other hand, the same assumption makes naive bayes algorithm less accurate than complicated algorithms. Speed comes at a cost!
+
 ## __K-Nearest Neighbors(kNN)__
 ## __k-Means Clustering__
 ## __Random Forest__
