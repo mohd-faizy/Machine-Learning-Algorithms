@@ -15,6 +15,27 @@ A linear regression model tries to fit a regression line to the data points that
 
 ## __Logistic Regression__
 
+Logistic regression is a supervised learning algorithm which is mostly used for binary classification problems. Although “regression” contradicts with “classification”, the focus here is on the word “logistic” referring to logistic function which does the classification task in this algorithm. Logistic regression is a simple yet very effective classification algorithm so it is commonly used for many binary classification tasks. Customer churn, spam email, website or ad click predictions are some examples of the areas where logistic regression offers a powerful solution.
+
+The basis of logistic regression is the logistic function, also called the sigmoid function, which takes in any real valued number and maps it to a value between 0 and 1.
+
+<img src='https://miro.medium.com/max/483/0*Xe43fpJ941_xkmud.png'>
+
+Consider we have the following linear equation to solve:
+
+<img src='https://miro.medium.com/max/363/0*-j9l4GxxyNd32ehx.png'>
+
+Logistic regression model takes a linear equation as input and uses logistic function and log odds to perform a binary classification task. Then, we will get the famous s shaped graph of logistic regression:
+
+<img src='https://miro.medium.com/max/693/0*Qpp-M16hdTKQ-Uvb.png'>
+
+We can use the calculated probability ‘as is’. For example, the output can be “the probability that this email is spam is 95%” or “the probability that customer will click on this ad is 70%”. However, in most cases, probabilities are used to classify data points. For instance, if the probability is greater than 50%, the prediction is positive class (1). Otherwise, the prediction is negative class (0).
+
+
+It is not always desired to choose positive class for all probability values higher than 50%. Regarding the spam email case, we have to be almost sure in order to classify an email as spam. Since emails detected as spam directly go to spam folder, we do not want the user to miss important emails. Emails are not classified as spam unless we are almost sure. On the other hand, when classification in a health-related issue requires us to be much more sensitive. Even if we are a little suspicious that a cell is malignant, we do not want to miss it. So the value that serves as a threshold between positive and negative class is problem-dependent. Good thing is that logistic regression allows us to adjust this threshold value.
+
+
+
 ## __Decision Tree__
 ## __Support Vector Machine(SVM)__
 Support Vector Machine (SVM) is a supervised learning algorithm and mostly used for classification tasks but it is also suitable for regression tasks.
