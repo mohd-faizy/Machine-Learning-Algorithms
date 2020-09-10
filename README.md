@@ -82,6 +82,12 @@ Adding all these up, it became an easy task for naive bayes algorithm to calcula
 The assumption that all features are independent makes naive bayes algorithm very fast compared to complicated algorithms. In some cases, speed is preferred over higher accuracy. On the other hand, the same assumption makes naive bayes algorithm less accurate than complicated algorithms. Speed comes at a cost!
 
 ## __K-Nearest Neighbors(kNN)__
+
+K-nearest neighbors (kNN) is a supervised learning algorithm that can be used to solve both classification and regression tasks. The main idea behind kNN is that the value or class of a data point is determined by the data points around it.
+
+kNN classifier determines the class of a data point by majority voting principle. For instance, if k is set to 5, the classes of 5 closest points are checked. Prediction is done according to the majority class. Similarly, kNN regression takes the mean value of 5 closest points. Let’s go over an example. Consider the following data points that belong to 4 different classes:
+
+
 ## __k-Means Clustering__
 ## __Random Forest__
 ## __Dimensiopnality Reduction Algorithms(e.g. PCA)__
