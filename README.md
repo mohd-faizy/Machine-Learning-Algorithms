@@ -87,6 +87,8 @@ K-nearest neighbors (kNN) is a supervised learning algorithm that can be used to
 
 kNN classifier determines the class of a data point by majority voting principle. For instance, if k is set to 5, the classes of 5 closest points are checked. Prediction is done according to the majority class. Similarly, kNN regression takes the mean value of 5 closest points. Let’s go over an example. Consider the following data points that belong to 4 different classes:
 
+<img src='https://miro.medium.com/max/610/0*JITsPkWWA8DU62ac.png'>
+
 
 ## __k-Means Clustering__
 ## __Random Forest__
