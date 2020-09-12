@@ -89,6 +89,10 @@ kNN classifier determines the class of a data point by majority voting principle
 
 <img src='https://miro.medium.com/max/610/0*JITsPkWWA8DU62ac.png'>
 
+Let’s see how the predicted classes change according to the k value:
+
+<img src='https://miro.medium.com/max/610/0*OcaG0BdtFCGKOnv9.png'>
+
 
 ## __k-Means Clustering__
 ## __Random Forest__
