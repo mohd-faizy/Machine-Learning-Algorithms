@@ -93,6 +93,13 @@ Let’s see how the predicted classes change according to the k value:
 
 <img src='https://miro.medium.com/max/610/0*OcaG0BdtFCGKOnv9.png'>
 
+<img src='https://miro.medium.com/max/610/0*cU1E1HGhvrOeFvYN.png'>
+
+It is very important to determine an optimal k value. If k is too low, the model is too specific and not generalized well. It also tends to be sensitive to noise. The model accomplishes a high accuracy on train set but will be a poor predictor on new, previously unseen data points. Therefore, we are likely to end up with an overfit model. On the other hand, if k is too large, the model is too generalized and not a good predictor on both train and test sets. This situation is known as underfitting.
+
+
+kNN is simple and easy to interpret. It does not make any assumption so it can be implemented in non-linear tasks. kNN becomes very slow as the number of data points increases because the model needs to store all data points. Thus, it is also not memory efficient. Another downside of kNN is that it is sensitive to outliers.
+
 
 ## __k-Means Clustering__
 ## __Random Forest__
