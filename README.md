@@ -108,7 +108,7 @@ kNN is simple and easy to interpret. It does not make any assumption so it can b
 
 ## __07-k-Means Clustering__
 ## __08-Random Forest__
-## __09-Dimensiopnality Reduction Algorithms(e.g. PCA)__
+## __09-Dimensionality Reduction Algorithms(e.g. PCA)__
 ## __10-Gradient Boosting & AdaBoost(e,g. GBDT)__
 
 
