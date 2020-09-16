@@ -1,6 +1,6 @@
 # __Machine Learning Algorithms__
 
-## __Linear Regression__
+## __01-Linear Regression__
 
 Linear regression is a supervised learning algorithm and tries to model the relationship between a continuous target variable and one or more independent variables by fitting a linear equation to the data.
 For a linear regression to be a good choice, there needs to be a linear relation between independent variable(s) and target variable. There are many tools to explore the relationship among variables such as scatter plots and correlation matrix. For example, the scatter plot below shows a positive correlation between an independent variable (x-axis) and dependent variable (y-axis). As one increases, the other one also increases.
@@ -13,7 +13,7 @@ A linear regression model tries to fit a regression line to the data points that
 
 <img src='https://miro.medium.com/max/508/0*e2N94sdwIpaNs5iE.jpeg'>
 
-## __Logistic Regression__
+## __02-Logistic Regression__
 
 Logistic regression is a supervised learning algorithm which is mostly used for binary classification problems. Although “regression” contradicts with “classification”, the focus here is on the word “logistic” referring to logistic function which does the classification task in this algorithm. Logistic regression is a simple yet very effective classification algorithm so it is commonly used for many binary classification tasks. Customer churn, spam email, website or ad click predictions are some examples of the areas where logistic regression offers a powerful solution.
 
@@ -36,13 +36,13 @@ It is not always desired to choose positive class for all probability values hig
 
 
 
-## __Decision Tree__
+## __03-Decision Tree__
 
 A decision tree builds upon iteratively asking questions to partition data. It is easier to conceptualize the partitioning data with a visual representation of a decision tree:
 
 <img src='https://miro.medium.com/max/700/0*k_ug4HTto4BPsHSJ.png'>
 
-## __Support Vector Machine(SVM)__
+## __04-Support Vector Machine(SVM)__
 Support Vector Machine (SVM) is a supervised learning algorithm and mostly used for classification tasks but it is also suitable for regression tasks.
 SVM distinguishes classes by drawing a decision boundary. How to draw or determine the decision boundary is the most critical part in SVM algorithms. Before creating the decision boundary, each observation (or data point) is plotted in n-dimensional space. “n” is the number of features used. For instance, if we use “length” and “width” to classify different “cells”, observations are plotted in a 2-dimensional space and decision boundary is a line. If we use 3 features, decision boundary is a plane in 3-dimensional space. If we use more than 3 features, decision boundary becomes a hyperplane which is really hard to visualize.
 
@@ -55,7 +55,7 @@ Kernel function is kind of a similarity measure. The inputs are original feature
 
 SVM is especially effective in cases where number of dimensions are more than the number of samples. When finding the decision boundary, SVM uses a subset of training points rather than all points which makes it memory efficient. On the other hand, training time increases for large datasets which negatively effects the performance.
 
-## __Naive Bayes__
+## __05-Naive Bayes__
 Naive Bayes is a supervised learning algorithm used for classification tasks. Hence, it is also called Naive Bayes Classifier.
 
 Naive bayes assumes that features are independent of each other and there is no correlation between features. However, this is not the case in real life. This naive assumption of features being uncorrelated is the reason why this algorithm is called “naive”.
@@ -86,7 +86,7 @@ The conditional probability for a single feature given the class label (i.e. p(x
 Adding all these up, it became an easy task for naive bayes algorithm to calculate the probability to observe a class given values of features (p(yi | x1, x2 , … , xn) )
 The assumption that all features are independent makes naive bayes algorithm very fast compared to complicated algorithms. In some cases, speed is preferred over higher accuracy. On the other hand, the same assumption makes naive bayes algorithm less accurate than complicated algorithms. Speed comes at a cost!
 
-## __K-Nearest Neighbors(kNN)__
+## __06-K-Nearest Neighbors(kNN)__
 
 K-nearest neighbors (kNN) is a supervised learning algorithm that can be used to solve both classification and regression tasks. The main idea behind kNN is that the value or class of a data point is determined by the data points around it.
 
@@ -106,10 +106,10 @@ It is very important to determine an optimal k value. If k is too low, the model
 kNN is simple and easy to interpret. It does not make any assumption so it can be implemented in non-linear tasks. kNN becomes very slow as the number of data points increases because the model needs to store all data points. Thus, it is also not memory efficient. Another downside of kNN is that it is sensitive to outliers.
 
 
-## __k-Means Clustering__
-## __Random Forest__
-## __Dimensiopnality Reduction Algorithms(e.g. PCA)__
-## __Gradient Boosting & AdaBoost(e,g. GBDT)__
+## __07-k-Means Clustering__
+## __08-Random Forest__
+## __09-Dimensiopnality Reduction Algorithms(e.g. PCA)__
+## __10-Gradient Boosting & AdaBoost(e,g. GBDT)__
 
 
 
