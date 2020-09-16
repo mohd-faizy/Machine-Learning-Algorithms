@@ -1,1 +1,1 @@
-# __Logistic Regression__
+# __Dimensionality Reduction Algorithms__
