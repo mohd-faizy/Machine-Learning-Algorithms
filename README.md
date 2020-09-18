@@ -109,8 +109,21 @@ kNN is simple and easy to interpret. It does not make any assumption so it can b
 ## __07-k-Means Clustering__
 ## __08-Random Forest__
 ## __09-Dimensionality Reduction Algorithms(e.g. PCA)__
-## __10-Gradient Boosting & AdaBoost(e,g. GBDT)__
 
+PCA is a dimensionality reduction algorithm which basically derives new features from the existing ones with keeping as much information as possible. PCA is an unsupervised learning algorithm but it is also widely used as a preprocessing step for supervised learning algorithms.
+PCA derives new features by finding the relations among features within a dataset.
+
+> Note: PCA is a linear dimensionality reduction algorithm. There are also non-linear methods available.
+The aim of PCA is to explain the variance within the original dataset as much as possible by using less features (or columns). The new derived features are called principal components. The order of principal components is determined according to the fraction of variance of original dataset they explain.
+
+<img src='https://miro.medium.com/max/393/0*a8S1njE_ZxJf01Pq.png'>
+
+> The principal components are linear combinations of the features of original dataset.
+
+The advantage of PCA is that a significant amount of variance of the original dataset is retained using much smaller number of features than the original dataset. Principal components are ordered according to the amount of variance they explain.
+
+
+## __10-Gradient Boosting & AdaBoost(e,g. GBDT)__
 
 
 TDSSRC=https://towardsdatascience.com/11-most-common-machine-learning-algorithms-explained-in-a-nutshell-cc6e98df93be
