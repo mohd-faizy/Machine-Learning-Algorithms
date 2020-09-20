@@ -108,6 +108,14 @@ kNN is simple and easy to interpret. It does not make any assumption so it can b
 
 ## __07-k-Means Clustering__
 ## __08-Random Forest__
+Random forest is an ensemble of many decision trees. Random forests are built using a method called bagging in which decision trees are used as parallel estimators. If used for a classification problem, the result is based on majority vote of the results received from each decision tree. For regression, the prediction of a leaf node is the mean value of the target values in that leaf. Random forest regression takes mean value of the results from decision trees.
+
+Random forests reduce the risk of overfitting and accuracy is much higher than a single decision tree. Furthermore, decision trees in a random forest run in parallel so that the time does not become a bottleneck.
+
+The success of a random forest highly depends on using uncorrelated decision trees. If we use same or very similar trees, the overall result will not be much different than the result of a single decision tree. Random forests achieve to have uncorrelated decision trees by bootstrapping and feature randomness.
+
+Bootsrapping is randomly selecting samples from training data with replacement. They are called bootstrap samples.
+
 ## __09-Dimensionality Reduction Algorithms(e.g. PCA)__
 
 PCA is a dimensionality reduction algorithm which basically derives new features from the existing ones with keeping as much information as possible. PCA is an unsupervised learning algorithm but it is also widely used as a preprocessing step for supervised learning algorithms.
