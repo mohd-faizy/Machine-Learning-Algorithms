@@ -122,6 +122,10 @@ Bootsrapping is randomly selecting samples from training data with replacement. 
 
 <img src='https://miro.medium.com/max/551/0*tLlPb04Pvp--4BYu.png'>
 
+Feature randomness is achieved by selecting features randomly for each decision tree in a random forest. The number of features used for each tree in a random forest can be controlled with max_features parameter.
+
+<img src ='https://miro.medium.com/max/527/0*onTZANCN2EjlBEu7.png'>
+
 ## __09-Dimensionality Reduction Algorithms(e.g. PCA)__
 
 PCA is a dimensionality reduction algorithm which basically derives new features from the existing ones with keeping as much information as possible. PCA is an unsupervised learning algorithm but it is also widely used as a preprocessing step for supervised learning algorithms.
