@@ -126,6 +126,10 @@ Feature randomness is achieved by selecting features randomly for each decision 
 
 <img src ='https://miro.medium.com/max/527/0*onTZANCN2EjlBEu7.png'>
 
+Random forest is a highly accurate model on many different problems and does not require normalization or scaling. However, it is not a good choice for high-dimensional data sets (i.e. text classification) compared to fast linear models (i.e. Naive Bayes).
+
+
+
 ## __09-Dimensionality Reduction Algorithms(e.g. PCA)__
 
 PCA is a dimensionality reduction algorithm which basically derives new features from the existing ones with keeping as much information as possible. PCA is an unsupervised learning algorithm but it is also widely used as a preprocessing step for supervised learning algorithms.
