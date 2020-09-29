@@ -128,6 +128,7 @@ Feature randomness is achieved by selecting features randomly for each decision 
 
 Random forest is a highly accurate model on many different problems and does not require normalization or scaling. However, it is not a good choice for high-dimensional data sets (i.e. text classification) compared to fast linear models (i.e. Naive Bayes).
 
+<img src='https://miro.medium.com/max/700/0*qO_6O4SdlJyUs6Zc.png'>
 
 
 ## __09-Dimensionality Reduction Algorithms(e.g. PCA)__
