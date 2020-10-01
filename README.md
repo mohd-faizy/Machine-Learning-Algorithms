@@ -1,7 +1,7 @@
 # __Machine Learning Algorithms__
 
 ## __01-Linear Regression__
-<img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/LinearRegression_Code.png' height=600 width=800>
+<img src='' height=600 width=800>
 
 
 ## __02-Logistic Regression__
