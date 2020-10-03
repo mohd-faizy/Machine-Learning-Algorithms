@@ -6,6 +6,8 @@
 
 ## __02-Logistic Regression__
 
+<img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/02_LogisticRegression.png' height=600 width=800>
+
 ## __03-Decision Tree__
 
 ## __04-Support Vector Machine(SVM)__
