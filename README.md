@@ -1,14 +1,14 @@
 # __Machine Learning Algorithms__
 
-## __01-Linear Regression__
+## __01-Linear Regression:__
 <img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/01_LinearRegression.png' height=600 width=800>
 
 
-## __02-Logistic Regression__
+## __02-Logistic Regression:__
 
 <img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/02_LogisticRegression.png' height=600 width=800>
 
-## __03-Decision Tree__
+## __03-Decision Tree:__
 
 <img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/03_Decision_Tree.png' height=600 width=800>
 
