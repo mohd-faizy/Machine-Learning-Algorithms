@@ -12,7 +12,7 @@
 
 <img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/03_Decision_Tree.png' height=600 width=800>
 
-## __04-Support Vector Machine(SVM)__
+## __04-Support Vector Machine(SVM):__
 
 
 ## __05-Naive Bayes__
