@@ -15,7 +15,7 @@
 ## __04-Support Vector Machine(SVM):__
 
 
-## __05-Naive Bayes__
+## __05-Naive Bayes:__
 
 ## __06-K-Nearest Neighbors(kNN)__
 
