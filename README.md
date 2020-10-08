@@ -17,7 +17,7 @@
 
 ## __05-Naive Bayes:__
 
-## __06-K-Nearest Neighbors(kNN)__
+## __06-K-Nearest Neighbors(kNN):__
 
 ## __07-k-Means Clustering__
 ## __08-Random Forest__
