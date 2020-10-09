@@ -19,7 +19,7 @@
 
 ## __06-K-Nearest Neighbors(kNN):__
 
-## __07-k-Means Clustering__
+## __07-k-Means Clustering:__
 ## __08-Random Forest__
 ## __09-Dimensionality Reduction Algorithms(e.g. PCA)__
 
