@@ -21,7 +21,7 @@
 
 ## __07-k-Means Clustering:__
 ## __08-Random Forest:__
-## __09-Dimensionality Reduction Algorithms(e.g. PCA)__
+## __09-Dimensionality Reduction Algorithms(e.g. PCA):__
 
 ## __10-Gradient Boosting & AdaBoost(e,g. GBDT)__
 
