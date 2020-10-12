@@ -23,6 +23,6 @@
 ## __08-Random Forest:__
 ## __09-Dimensionality Reduction Algorithms(e.g. PCA):__
 
-## __10-Gradient Boosting & AdaBoost(e,g. GBDT)__
+## __10-Gradient Boosting & AdaBoost(e,g. GBDT):__
 
 
