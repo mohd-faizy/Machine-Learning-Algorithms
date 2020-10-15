@@ -14,6 +14,9 @@
 
 ## __04-Support Vector Machine(SVM):__
 
+<img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/04_SVM.png?raw=true' height=600 width=800>
+
+
 
 ## __05-Naive Bayes:__
 
