@@ -1,24 +1,57 @@
 # __Machine Learning Algorithms__
 
 ## __01-Linear Regression:__
-<img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/01_LinearRegression.png' height=600 width=800>
+
+```python
+
+# Import Library
+# Import other necessary libraries like panda & numpy
+
+from sklearn import linear_model
+
+# Load Train and Test datasets
+# Identify feature and response variable(s) and 
+# values must be numeric and numpy arrays
+
+x_train = input_variables_values_training_datasets
+y_train = target_variables_values_training_datasets  
+x_test = input_variables_values_test_datasets
+
+# Create linear regression object
+linear = linear model.LinearRegression()
+
+#Train the model using the training sets and
+#check score 
+
+linear.fit(x train, y_train)
+linear.score(x train, y_train)
+
+# Equation coefficient and Intercept
+
+print('Coefficient: \n', linear.coef_)
+print('Intercept: \n', linear. intercept_) 
+
+#Predict Output 
+predicted= linear.predict(x_test) 
+```
+
 
 
 ## __02-Logistic Regression:__
 
-<img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/02_LogisticRegression.png' height=600 width=800>
+
 
 ## __03-Decision Tree:__
 
-<img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/03_Decision_Tree.png' height=600 width=800>
+
 
 ## __04-Support Vector Machine(SVM):__
 
-<img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/04_SVM.png?raw=true' height=600 width=800>
+
 
 ## __05-Naive Bayes:__
 
-<img src='https://github.com/mohd-faizy/____Machine_Learning_Algorithms____/blob/master/Algorithms_png/05_Naive%20Bayes.png' height=600 width=800>
+
 
 ## __06-K-Nearest Neighbors(kNN):__
 
