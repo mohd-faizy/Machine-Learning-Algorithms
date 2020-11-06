@@ -5,7 +5,7 @@
 ```python
 
 # Import Library
-# Import other necessary libraries like panda & numpy
+# Import other necessary libraries like panda, numpy...
 
 from sklearn import linear_model
 
@@ -39,18 +39,107 @@ predicted= linear.predict(x_test)
 
 ## __02-Logistic Regression:__
 
+```python
+
+# Import Library 
+from sklearn.linear model import LogisticRegression
+
+# Assumed you have, X (predictor) and Y (target) 
+# for training data set and x_test(predictor) of test dataset 
+
+# Create logistic regression object 
+model = LogisticRegression()
+
+# Train the model using the training sets and check score 
+model.fit(X, y)
+model.score(X, y)
+
+# Equation coefficient and Intercept 
+print('Coefficient: \n', model.coef_) 
+print('Intercept: \n', model.intercept_)
+
+# Predict Output
+predicted= model. predict(x_test) 
+
+```
 
 
 ## __03-Decision Tree:__
 
+```python
+
+# Import Library
+# Import other necessary libraries like pandas, numpy...
+
+from sklearn import tree
+
+# Assumed you have, X (predictor) and Y (target) for
+# training data set and x_test(predictor) of test dataset 
+
+# Create tree object 
+model = tree.DecisionTreeClassifier(criterion='gini') 
+
+# for classification, here you can change the
+# algorithm as gini or entropy (information gain) by 
+# default it is gini 
+
+model = tree.DecisionTreeRegressor() # for regression
+
+# Train the model using the training sets and check score 
+model.fit(X, y)
+model.score(X, y) 
+
+# Predict Output 
+predicted= model.predict(x_test) 
+```
 
 
 ## __04-Support Vector Machine(SVM):__
 
+```python
 
+# Import Library
+from sklearn import svm
+
+# Assumed you have, X (predictor) and Y (target) for
+# training data set and x_test(predictor) of test_dataset 
+
+# Create SVM classification object
+model = svm.svc()
+
+# there are various options associated with it, this is simple for classification.
+
+# Train the model using the training sets & check the score
+model.fit(X, y)
+model.score(X, y)
+
+# Predict Output 
+predicted= model.predict(x_test) 
+
+```
 
 ## __05-Naive Bayes:__
 
+```python
+
+# Import Library
+from sklearn.naive bayes import GaussianNB
+
+# Assumed you have, X (predictor) and Y (target) for
+# training data set and x_test(predictor) of test_dataset 
+
+# Create SVM classification object 
+model = GaussianNB()
+
+# there is other distribution for multinomial classes like Bernoulli Naive Bayes
+
+# Train the model using the training sets and check score
+model.fit(X, y)
+
+# Predict Output 
+predicted= model.predict(x_test) 
+
+```
 
 
 ## __06-K-Nearest Neighbors(kNN):__
