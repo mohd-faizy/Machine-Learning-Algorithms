@@ -32,7 +32,7 @@ print('Coefficient: \n', linear.coef_)
 print('Intercept: \n', linear. intercept_) 
 
 #Predict Output 
-predicted= linear.predict(x_test) 
+predicted = linear.predict(x_test) 
 ```
 
 
@@ -59,7 +59,7 @@ print('Coefficient: \n', model.coef_)
 print('Intercept: \n', model.intercept_)
 
 # Predict Output
-predicted= model. predict(x_test) 
+predicted = model. predict(x_test) 
 
 ```
 
@@ -90,7 +90,7 @@ model.fit(X, y)
 model.score(X, y) 
 
 # Predict Output 
-predicted= model.predict(x_test) 
+predicted = model.predict(x_test) 
 ```
 
 
@@ -114,7 +114,7 @@ model.fit(X, y)
 model.score(X, y)
 
 # Predict Output 
-predicted= model.predict(x_test) 
+predicted = model.predict(x_test) 
 
 ```
 
@@ -137,20 +137,118 @@ model = GaussianNB()
 model.fit(X, y)
 
 # Predict Output 
-predicted= model.predict(x_test) 
+predicted = model.predict(x_test) 
 
 ```
 
 
 ## __06-K-Nearest Neighbors(kNN):__
 
+```python
+
+# Import Library 
+from sklearn.neighbors import KNeighborsClassifier
+
+# Assumed you have, X (predictor) and Y (target) for 
+# training data set and x_test(predictor) of test_dataset
+
+# Create KNeighbors classifier object model
+KNeighborsClassifier(n_neighbors=6) # default value for n neighbors is 5
+
+
+# Train the model using the training sets and check score
+model.fit(X, y)
+
+# Predict Output
+predicted = model.predict(x_test) 
+
+```
+
 ## __07-k-Means Clustering:__
 
+```python
+
+# Import Library
+from sklearn.cluster import KMeans
+
+# Assumed you have, X (attributes) for training data set 
+# and x test(attributes) of test dataset
+
+# Create KNeighbors classifier object model
+k means - KMeans(n clusters-3, random state=0)
+
+#Train the model using the training sets and check score
+model.fit(X)
+
+#Predict Output 
+predicted = model.predict(x_test) 
+
+```
 ## __08-Random Forest:__
+
+```python
+
+# Import Library
+from sklearn.ensemble import RandomForestClassifier
+
+# Assumed you have, X (predictor) and Y (target) for 
+# training data set and x_test(predictor) of test_dataset
+
+# Create Random Forest object
+model= RandomForestClassifier()
+
+# Train the model using the training sets and check score
+model.fit(X, y)
+
+# Predict Output 
+predicted = model.predict(x_test) 
+```
+
+
 
 ## __09-Dimensionality Reduction Algorithms(e.g. PCA):__
 
+```python
+
+# Import Library 
+from sklearn import decomposition
+
+# Assumed you have training and test data set as train and test
+
+# Create PCA object 
+pca= decomposition.PCA(n_components=k) # default value of k -min(n sample, n features)
+
+# For Factor analysis 
+fa= decomposition.FactorAnalysis()
+
+# Reduced the dimension of training dataset using PCA 
+train_reduced = pca.fit_transform(train)
+
+# Reduced the dimension of test dataset
+test_reduced = pca.transform(test) 
+```
+
 ## __10-Gradient Boosting & AdaBoost(e.g. GBDT):__
+
+```python
+ 
+# Import Library 
+from sklearn.ensemble import GradientBoostingClassifier
+
+# Assumed you have, X (predictor) and Y (target) for 
+# training data set and x_test(predictor) of test_dataset
+
+# Create Gradient Boosting Classifier object
+model= GradientBoostingClassifier(n_estimators=100, \
+         learning_rate=1.0, max_depth=1, random_state=0)
+         
+# Train the model using the training sets and check score 
+model.fit(X, y) 
+
+# Predict Output 
+predicted = model.predict(x_test) 
+```
+
 
 ### Connect with me:
 
