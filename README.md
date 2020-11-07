@@ -2,33 +2,42 @@
 
 <img src='https://github.com/mohd-faizy/__Machine_Learning_Algorithms__/blob/master/Algorithms_png/Head_ML.png'>
 
+## __Classification according to the ways of learning:__
 
-## __Machine Learning according to the function:__
+:black_circle: Supervised learning
 
-|__Regression algorithm__|
-|------------------------|
+:white_circle: Unsupervised learning
+
+:black_circle: Semi-supervised learning
+
+:white_circle: Reinforcement learning
+
+## __Classification according to the function:__
+
+|:heavy_check_mark: __Regression algorithm__|
+|-------------------------------------------|
 | Linear regression|
 | Logistic regression|                    
 | Multiple Adaptive Regression (MARS)|
 | Local scatter smoothing estimate (LOESS)|
 
 
-|__Instance-based learning algorithm__|
-|-------------------------------------|
+|:heavy_check_mark: __Instance-based learning algorithm__|
+|--------------------------------------------------------|
 | K — proximity algorithm (kNN)|
 | Learning vectorization (LVQ)|
 | Self-Organizing Mapping Algorithm (SOM)|
 | Local Weighted Learning Algorithm (LWL)|
 
-|__Regularization algorithm__|
-|----------------------------|
+|:heavy_check_mark: __Regularization algorithm__|
+|-----------------------------------------------|
 | Ridge Regression|
 | LASSO（Least Absolute Shrinkage and Selection Operator)|
 | Elastic Net| 
 | Minimum Angle Regression (LARS)|
 
-|__Decision tree algorithm__|
-|---------------------------|
+|:heavy_check_mark: __Decision tree algorithm__|
+|----------------------------------------------|
 | Classification and Regression Tree (CART)|
 | ID3 algorithm (Iterative Dichotomiser 3)|
 | C4.5 and C5.0|
@@ -38,48 +47,48 @@
 | Gradient Boosting Machine (GBM)|
 
 
-|__Bayesian algorithm__|
-|----------------------|
+|:heavy_check_mark: __Bayesian algorithm__|
+|-----------------------------------------|
 | Naive Bayes|
 | Gaussian Bayes|
 | Polynomial naive Bayes|
 | AODE（Averaged One-Dependence Estimators）|
 | Bayesian Belief Network|
 
-|__Kernel-based algorithm__|
-|--------------------------|
+|:heavy_check_mark: __Kernel-based algorithm__|
+|---------------------------------------------|
 | Support vector machine (SVM)|
 | Radial Basis Function (RBF)|
 | Linear Discriminate Analysis (LDA)|
 
-|__Clustering Algorithm__|
-|------------------------|
+|:heavy_check_mark: __Clustering Algorithm__|
+|-------------------------------------------|
 | K — mean|
 | K — medium number|
 | EM algorithm|
 | Hierarchical clustering|
 
-|__Association rule learning__|
-|-----------------------------|
+|:heavy_check_mark: __Association rule learning__|
+|------------------------------------------------|
 | Apriori algorithm|
 | Eclat algorithm|
 
-|__Neural Networks__|
-|-------------------|
+| :heavy_check_mark: __Neural Networks__|
+|---------------------------------------|
 | sensor|
 | Backpropagation algorithm (BP)|
 | Hopfield network|
 | Radial Basis Function Network (RBFN)|
 
-|__Deep learning__|
-|-----------------|
+|:heavy_check_mark: __Deep learning__|
+|------------------------------------|
 | Deep Boltzmann Machine (DBM)|
 | Convolutional Neural Network (CNN)|
 | Recurrent neural network (RNN, LSTM)|
 | Stacked Auto-Encoder|
 
-|__Dimensionality reduction algorithm__|
-|--------------------------------------|
+|:heavy_check_mark: __Dimensionality reduction algorithm__|
+|---------------------------------------------------------|
 | Principal Component Analysis (PCA)|
 | Principal component regression (PCR)|
 | Partial least squares regression (PLSR)|
@@ -91,8 +100,8 @@
 | Quadratic Discriminant Analysis (QDA)|
 | Flexible Discriminant Analysis (FDA)|
 
-|__Integrated algorithm__|
-|------------------------|
+|:heavy_check_mark: __Integrated algorithm__|
+|-------------------------------------------|
 | Boosting|
 | Bagging|
 | AdaBoost|
@@ -101,8 +110,8 @@
 | GBRT algorithm|
 | Random forest|
 
-|__Other algorithms__|
-|--------------------|
+|:heavy_check_mark: __Other algorithms__|
+|---------------------------------------|
 | Feature selection algorithm|
 | Performance evaluation algorithm|
 | Natural language processing|
@@ -113,7 +122,7 @@
 
 ---
 
-## __01-Linear Regression:__
+## :one: __Linear Regression:__
 
 ```python
 
@@ -150,7 +159,7 @@ predicted = linear.predict(x_test)
 
 
 
-## __02-Logistic Regression:__
+## :two:__Logistic Regression:__
 
 ```python
 
@@ -177,7 +186,7 @@ predicted = model. predict(x_test)
 ```
 
 
-## __03-Decision Tree:__
+## :three: __Decision Tree:__
 
 ```python
 
@@ -207,7 +216,7 @@ predicted = model.predict(x_test)
 ```
 
 
-## __04-Support Vector Machine(SVM):__
+## :four: __Support Vector Machine(SVM):__
 
 ```python
 
@@ -231,7 +240,7 @@ predicted = model.predict(x_test)
 
 ```
 
-## __05-Naive Bayes:__
+## :five:__Naive Bayes:__
 
 ```python
 
@@ -255,7 +264,7 @@ predicted = model.predict(x_test)
 ```
 
 
-## __06-K-Nearest Neighbors(kNN):__
+## :six: __K-Nearest Neighbors(kNN):__
 
 ```python
 
@@ -277,7 +286,7 @@ predicted = model.predict(x_test)
 
 ```
 
-## __07-k-Means Clustering:__
+## :seven: __k-Means Clustering:__
 
 ```python
 
@@ -297,7 +306,7 @@ model.fit(X)
 predicted = model.predict(x_test) 
 
 ```
-## __08-Random Forest:__
+## :eight: __Random Forest:__
 
 ```python
 
@@ -319,7 +328,7 @@ predicted = model.predict(x_test)
 
 
 
-## __09-Dimensionality Reduction Algorithms(e.g. PCA):__
+## :nine: __Dimensionality Reduction Algorithms(e.g. PCA):__
 
 ```python
 
@@ -341,7 +350,7 @@ train_reduced = pca.fit_transform(train)
 test_reduced = pca.transform(test) 
 ```
 
-## __10-Gradient Boosting & AdaBoost(e.g. GBDT):__
+## :one::zero:__Gradient Boosting & AdaBoost(e.g. GBDT):__
 
 ```python
  
