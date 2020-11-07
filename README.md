@@ -122,7 +122,7 @@
 
 ---
 
-## :one: __Linear Regression:__
+## :one:__Linear Regression:__
 
 ```python
 
@@ -186,7 +186,7 @@ predicted = model. predict(x_test)
 ```
 
 
-## :three: __Decision Tree:__
+## :three:__Decision Tree:__
 
 ```python
 
@@ -216,7 +216,7 @@ predicted = model.predict(x_test)
 ```
 
 
-## :four: __Support Vector Machine(SVM):__
+## :four:__Support Vector Machine(SVM):__
 
 ```python
 
@@ -264,7 +264,7 @@ predicted = model.predict(x_test)
 ```
 
 
-## :six: __K-Nearest Neighbors(kNN):__
+## :six:__K-Nearest Neighbors(kNN):__
 
 ```python
 
@@ -286,7 +286,7 @@ predicted = model.predict(x_test)
 
 ```
 
-## :seven: __k-Means Clustering:__
+## :seven:__k-Means Clustering:__
 
 ```python
 
@@ -306,7 +306,7 @@ model.fit(X)
 predicted = model.predict(x_test) 
 
 ```
-## :eight: __Random Forest:__
+## :eight:__Random Forest:__
 
 ```python
 
@@ -328,7 +328,7 @@ predicted = model.predict(x_test)
 
 
 
-## :nine: __Dimensionality Reduction Algorithms(e.g. PCA):__
+## :nine:__Dimensionality Reduction Algorithms(e.g. PCA):__
 
 ```python
 
