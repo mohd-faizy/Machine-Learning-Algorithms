@@ -1,5 +1,7 @@
 # __Machine Learning Algorithms__
 
+<img src='https://github.com/mohd-faizy/__Machine_Learning_Algorithms__/blob/master/Algorithms_png/Head_ML.png'>
+
 ## __01-Linear Regression:__
 
 ```python
