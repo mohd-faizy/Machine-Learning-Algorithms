@@ -2,6 +2,106 @@
 
 <img src='https://github.com/mohd-faizy/__Machine_Learning_Algorithms__/blob/master/Algorithms_png/Head_ML.png'>
 
+
+## __Machine Learning according to the function:__
+
+|__Regression algorithm__                 |
+|-----------------------------------------|
+| Linear regression                       |
+| Logistic regression                     |
+| Multiple Adaptive Regression (MARS)     |
+| Local scatter smoothing estimate (LOESS)|
+
+
+|__Instance-based learning algorithm__   |
+|----------------------------------------|
+| K — proximity algorithm (kNN)          |
+| Learning vectorization (LVQ)           |
+| Self-Organizing Mapping Algorithm (SOM)|
+| Local Weighted Learning Algorithm (LWL)|
+
+__Regularization algorithm__
+- Ridge Regression
+- LASSO（Least Absolute Shrinkage and Selection Operator）
+- Elastic Net
+- Minimum Angle Regression (LARS)
+
+__Decision tree algorithm__
+- Classification and Regression Tree (CART)
+- ID3 algorithm (Iterative Dichotomiser 3)
+- C4.5 and C5.0
+- CHAID（Chi-squared Automatic Interaction Detection(）
+- Random Forest
+- Multivariate Adaptive Regression Spline (MARS)
+- Gradient Boosting Machine (GBM)
+
+
+__Bayesian algorithm__
+- Naive Bayes
+- Gaussian Bayes
+- Polynomial naive Bayes
+- AODE（Averaged One-Dependence Estimators）
+- Bayesian Belief Network
+
+__Kernel-based algorithm__
+- Support vector machine (SVM)
+- Radial Basis Function (RBF)
+- Linear Discriminate Analysis (LDA)
+
+__Clustering Algorithm__
+- K — mean
+- K — medium number
+- EM algorithm
+- Hierarchical clustering
+
+__Association rule learning__
+- Apriori algorithm
+- Eclat algorithm
+
+__Neural Networks__
+- sensor
+- Backpropagation algorithm (BP)
+- Hopfield network
+- Radial Basis Function Network (RBFN)
+
+__Deep learning__
+- Deep Boltzmann Machine (DBM)
+- Convolutional Neural Network (CNN)
+- Recurrent neural network (RNN, LSTM)
+- Stacked Auto-Encoder
+
+__Dimensionality reduction algorithm__
+- Principal Component Analysis (PCA)
+- Principal component regression (PCR)
+- Partial least squares regression (PLSR)
+- Salmon map
+- Multidimensional scaling analysis (MDS)
+- Projection pursuit method (PP)
+- Linear Discriminant Analysis (LDA)
+- Mixed Discriminant Analysis (MDA)
+- Quadratic Discriminant Analysis (QDA)
+- Flexible Discriminant Analysis (FDA)
+
+__Integrated algorithm__
+- Boosting
+- Bagging
+- AdaBoost
+- Stack generalization (mixed)
+- GBM algorithm
+- GBRT algorithm
+- Random forest
+
+__Other algorithms__
+- Feature selection algorithm
+- Performance evaluation algorithm
+- Natural language processing
+- Computer vision
+- Recommended system
+- Reinforcement learning
+- Migration learning
+
+---
+
 ## __01-Linear Regression:__
 
 ```python
