@@ -9,8 +9,11 @@ Decision Tree : Decision tree is the most powerful and popular tool for classifi
 The general algorithm for decision tree can be described as follows:
 
 :one: Select the best attribute that best splits or separates the data.
+
 :two: Ask the relevant question.
+
 :three:Follow the answer path.
+
 :four: Repeat these steps until you arrive to the answer.
 
 While constructing a decision tree, the major challenge is to identify the attribute for each root nodes in each level. This process is known as “attribute selection”. This selection can be done by using two methods.Let’s take a look at each.
