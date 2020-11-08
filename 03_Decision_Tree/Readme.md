@@ -8,13 +8,13 @@ Decision Tree : Decision tree is the most powerful and popular tool for classifi
 ### How Decision tree works?
 The general algorithm for decision tree can be described as follows:
 
-:one: Select the best attribute that best splits or separates the data.
+:heavy_check_mark: :one: Select the best attribute that best splits or separates the data.
 
-:two: Ask the relevant question.
+:heavy_check_mark: :two: Ask the relevant question.
 
-:three:Follow the answer path.
+:heavy_check_mark: :three: Follow the answer path.
 
-:four: Repeat these steps until you arrive to the answer.
+:heavy_check_mark: :four: Repeat these steps until you arrive to the answer.
 
 While constructing a decision tree, the major challenge is to identify the attribute for each root nodes in each level. This process is known as “attribute selection”. This selection can be done by using two methods.Let’s take a look at each.
 
@@ -22,6 +22,9 @@ While constructing a decision tree, the major challenge is to identify the attri
 
 :radio_button: __Gini Index__ : Gini Index is the measurement of likelihood how often a randomly chosen element is misclassified. The attributes with lower Gini Index need to be consider for splitting or for making a decision.
 
+## Decision Tree "Hello World!"
+
+> [BankNote_Authentication.csv](https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data/download)
 
 ```python
 
