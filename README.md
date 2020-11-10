@@ -12,113 +12,202 @@
 
 :white_circle: Reinforcement learning
 
+
 ## __Classification according to the function:__
 
-|:heavy_check_mark: __Regression algorithm__|
-|-------------------------------------------|
-| Linear regression|
-| Logistic regression|                    
-| Multiple Adaptive Regression (MARS)|
-| Local scatter smoothing estimate (LOESS)|
+### :heavy_check_mark: __Regression algorithm__
+
+:white_square_button: Linear regression
+ 
+:white_square_button: Logistic regression  
+ 
+:white_square_button: Multiple Adaptive Regression (MARS)
+ 
+:white_square_button: Local scatter smoothing estimate (LOESS)
+ 
+ ---
+ 
+### :heavy_check_mark: __Instance-based learning algorithm__
+
+:white_square_button: K — proximity algorithm (kNN)
+ 
+:white_square_button: Learning vectorization (LVQ)
+ 
+:white_square_button: Self-Organizing Mapping Algorithm (SOM)
+ 
+:white_square_button: Local Weighted Learning Algorithm (LWL)
+ 
+ ---
+
+### :heavy_check_mark: __Regularization algorithm__
+
+:white_square_button: Ridge Regression
+
+:white_square_button: LASSO（Least Absolute Shrinkage and Selection Operator)
+
+:white_square_button: Elastic Net 
+
+:white_square_button: Minimum Angle Regression (LARS)
 
 
-|:heavy_check_mark: __Instance-based learning algorithm__|
-|--------------------------------------------------------|
-| K — proximity algorithm (kNN)|
-| Learning vectorization (LVQ)|
-| Self-Organizing Mapping Algorithm (SOM)|
-| Local Weighted Learning Algorithm (LWL)|
-
-|:heavy_check_mark: __Regularization algorithm__|
-|-----------------------------------------------|
-| Ridge Regression|
-| LASSO（Least Absolute Shrinkage and Selection Operator)|
-| Elastic Net| 
-| Minimum Angle Regression (LARS)|
-
-|:heavy_check_mark: __Decision tree algorithm__|
-|----------------------------------------------|
-| Classification and Regression Tree (CART)|
-| ID3 algorithm (Iterative Dichotomiser 3)|
-| C4.5 and C5.0|
-| CHAID（Chi-squared Automatic Interaction Detection(）|
-| Random Forest|
-| Multivariate Adaptive Regression Spline (MARS)|
-| Gradient Boosting Machine (GBM)|
+--
 
 
-|:heavy_check_mark: __Bayesian algorithm__|
-|-----------------------------------------|
-| Naive Bayes|
-| Gaussian Bayes|
-| Polynomial naive Bayes|
-| AODE（Averaged One-Dependence Estimators）|
-| Bayesian Belief Network|
+### :heavy_check_mark: __Decision tree algorithm__
 
-|:heavy_check_mark: __Kernel-based algorithm__|
-|---------------------------------------------|
-| Support vector machine (SVM)|
-| Radial Basis Function (RBF)|
-| Linear Discriminate Analysis (LDA)|
+:white_square_button: Classification and Regression Tree (CART)
 
-|:heavy_check_mark: __Clustering Algorithm__|
-|-------------------------------------------|
-| K — mean|
-| K — medium number|
-| EM algorithm|
-| Hierarchical clustering|
+:white_square_button: ID3 algorithm (Iterative Dichotomiser 3)
 
-|:heavy_check_mark: __Association rule learning__|
-|------------------------------------------------|
-| Apriori algorithm|
-| Eclat algorithm|
+:white_square_button: C4.5 and C5.0
 
-| :heavy_check_mark: __Neural Networks__|
-|---------------------------------------|
-| sensor|
-| Backpropagation algorithm (BP)|
-| Hopfield network|
-| Radial Basis Function Network (RBFN)|
+:white_square_button: CHAID（Chi-squared Automatic Interaction Detection(）
 
-|:heavy_check_mark: __Deep learning__|
-|------------------------------------|
-| Deep Boltzmann Machine (DBM)|
-| Convolutional Neural Network (CNN)|
-| Recurrent neural network (RNN, LSTM)|
-| Stacked Auto-Encoder|
+:white_square_button: Random Forest
 
-|:heavy_check_mark: __Dimensionality reduction algorithm__|
-|---------------------------------------------------------|
-| Principal Component Analysis (PCA)|
-| Principal component regression (PCR)|
-| Partial least squares regression (PLSR)|
-| Salmon map|
-| Multidimensional scaling analysis (MDS)|
-| Projection pursuit method (PP)|
-| Linear Discriminant Analysis (LDA)|
-| Mixed Discriminant Analysis (MDA)|
-| Quadratic Discriminant Analysis (QDA)|
-| Flexible Discriminant Analysis (FDA)|
+:white_square_button: Multivariate Adaptive Regression Spline (MARS)|
 
-|:heavy_check_mark: __Integrated algorithm__|
-|-------------------------------------------|
-| Boosting|
-| Bagging|
-| AdaBoost|
-| Stack generalization (mixed)|
-| GBM algorithm|
-| GBRT algorithm|
-| Random forest|
+:white_square_button: Gradient Boosting Machine (GBM)|
 
-|:heavy_check_mark: __Other algorithms__|
-|---------------------------------------|
-| Feature selection algorithm|
-| Performance evaluation algorithm|
-| Natural language processing|
-| Computer vision|
-| Recommended system|
-| Reinforcement learning|
-| Migration learning|
+
+---
+
+### :heavy_check_mark: __Bayesian algorithm__
+
+:white_square_button: Naive Bayes
+
+:white_square_button: Gaussian Bayes 
+
+:white_square_button: Polynomial naive Bayes
+
+:white_square_button: AODE（Averaged One-Dependence Estimators）
+
+:white_square_button: Bayesian Belief Network
+
+
+---
+
+###:heavy_check_mark: __Kernel-based algorithm__
+
+:white_square_button: Support vector machine (SVM)
+
+:white_square_button: Radial Basis Function (RBF)
+
+:white_square_button: Linear Discriminate Analysis (LDA)
+
+
+---
+
+
+### :heavy_check_mark: __Clustering Algorithm__
+
+:white_square_button: K — mean
+
+:white_square_button: K — medium number
+
+:white_square_button: EM algorithm
+
+:white_square_button: Hierarchical clustering
+
+
+---
+
+### :heavy_check_mark: __Association rule learning__
+
+:white_square_button: Apriori algorithm
+
+:white_square_button: Eclat algorithm
+
+
+---
+
+### :heavy_check_mark: __Neural Networks__
+
+:white_square_button: Sensor
+
+:white_square_button: Backpropagation algorithm (BP)
+
+:white_square_button: Hopfield network
+
+:white_square_button: Radial Basis Function Network (RBFN)
+
+
+---
+
+### :heavy_check_mark: __Deep learning__
+
+:white_square_button: Deep Boltzmann Machine (DBM)
+
+:white_square_button: Convolutional Neural Network (CNN)
+
+:white_square_button: Recurrent neural network (RNN, LSTM)
+
+:white_square_button: Stacked Auto-Encoder
+
+
+---
+
+
+### :heavy_check_mark: __Dimensionality reduction algorithm__
+
+:white_square_button: Principal Component Analysis (PCA)
+
+:white_square_button: Principal component regression (PCR)
+
+:white_square_button: Partial least squares regression (PLSR)
+
+:white_square_button: Salmon map
+
+:white_square_button: Multidimensional scaling analysis (MDS)
+
+:white_square_button: Projection pursuit method (PP)
+
+:white_square_button: Linear Discriminant Analysis (LDA)
+
+:white_square_button: Mixed Discriminant Analysis (MDA)
+
+:white_square_button: Quadratic Discriminant Analysis (QDA)
+
+:white_square_button: Flexible Discriminant Analysis (FDA)
+
+
+---
+
+### :heavy_check_mark: __Integrated algorithm__
+
+:white_square_button: Boosting
+
+:white_square_button: Bagging
+
+:white_square_button: AdaBoost
+
+:white_square_button: Stack generalization (mixed)
+
+:white_square_button: GBM algorithm
+
+:white_square_button: GBRT algorithm
+
+:white_square_button: Random forest
+ 
+ 
+---
+
+
+### :heavy_check_mark: __Other algorithms__
+
+:white_square_button: Feature selection algorithm
+
+:white_square_button: Performance evaluation algorithm
+
+:white_square_button: Natural language processing
+
+:white_square_button: Computer vision
+
+:white_square_button: Recommended system
+
+:white_square_button: Reinforcement learning
+
+:white_square_button: Migration learning
 
 ---
 
