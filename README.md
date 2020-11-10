@@ -50,7 +50,7 @@
 :white_square_button: Minimum Angle Regression (LARS)
 
 
---
+--- 
 
 
 ### :heavy_check_mark: __Decision tree algorithm__
