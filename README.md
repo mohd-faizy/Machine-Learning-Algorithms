@@ -87,7 +87,7 @@
 
 ---
 
-###:heavy_check_mark: __Kernel-based algorithm__
+### :heavy_check_mark: __Kernel-based algorithm__
 
 :white_square_button: Support vector machine (SVM)
 
