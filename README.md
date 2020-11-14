@@ -13,201 +13,191 @@
 :white_circle: Reinforcement learning
 
 
-## __Classification according to the function:__
-
-### :heavy_check_mark: __Regression algorithm__
-
-:white_square_button: Linear regression
- 
-:white_square_button: Logistic regression  
- 
-:white_square_button: Multiple Adaptive Regression (MARS)
- 
-:white_square_button: Local scatter smoothing estimate (LOESS)
- 
- ---
- 
-### :heavy_check_mark: __Instance-based learning algorithm__
-
-:white_square_button: K — proximity algorithm (kNN)
- 
-:white_square_button: Learning vectorization (LVQ)
- 
-:white_square_button: Self-Organizing Mapping Algorithm (SOM)
- 
-:white_square_button: Local Weighted Learning Algorithm (LWL)
- 
- ---
-
-### :heavy_check_mark: __Regularization algorithm__
-
-:white_square_button: Ridge Regression
-
-:white_square_button: LASSO（Least Absolute Shrinkage and Selection Operator)
-
-:white_square_button: Elastic Net 
-
-:white_square_button: Minimum Angle Regression (LARS)
-
-
---- 
-
-
-### :heavy_check_mark: __Decision tree algorithm__
-
-:white_square_button: Classification and Regression Tree (CART)
-
-:white_square_button: ID3 algorithm (Iterative Dichotomiser 3)
-
-:white_square_button: C4.5 and C5.0
-
-:white_square_button: CHAID（Chi-squared Automatic Interaction Detection(）
-
-:white_square_button: Random Forest
-
-:white_square_button: Multivariate Adaptive Regression Spline (MARS)|
-
-:white_square_button: Gradient Boosting Machine (GBM)|
-
-
 ---
-
-### :heavy_check_mark: __Bayesian algorithm__
-
-:white_square_button: Naive Bayes
-
-:white_square_button: Gaussian Bayes 
-
-:white_square_button: Polynomial naive Bayes
-
-:white_square_button: AODE（Averaged One-Dependence Estimators）
-
-:white_square_button: Bayesian Belief Network
-
-
----
-
-### :heavy_check_mark: __Kernel-based algorithm__
-
-:white_square_button: Support vector machine (SVM)
-
-:white_square_button: Radial Basis Function (RBF)
-
-:white_square_button: Linear Discriminate Analysis (LDA)
-
-
----
-
-
-### :heavy_check_mark: __Clustering Algorithm__
-
-:white_square_button: K — mean
-
-:white_square_button: K — medium number
-
-:white_square_button: EM algorithm
-
-:white_square_button: Hierarchical clustering
-
-
----
-
-### :heavy_check_mark: __Association rule learning__
-
-:white_square_button: Apriori algorithm
-
-:white_square_button: Eclat algorithm
-
-
----
-
-### :heavy_check_mark: __Neural Networks__
-
-:white_square_button: Sensor
-
-:white_square_button: Backpropagation algorithm (BP)
-
-:white_square_button: Hopfield network
-
-:white_square_button: Radial Basis Function Network (RBFN)
-
-
----
-
-### :heavy_check_mark: __Deep learning__
-
-:white_square_button: Deep Boltzmann Machine (DBM)
-
-:white_square_button: Convolutional Neural Network (CNN)
-
-:white_square_button: Recurrent neural network (RNN, LSTM)
-
-:white_square_button: Stacked Auto-Encoder
-
-
----
-
-
-### :heavy_check_mark: __Dimensionality reduction algorithm__
-
-:white_square_button: Principal Component Analysis (PCA)
-
-:white_square_button: Principal component regression (PCR)
-
-:white_square_button: Partial least squares regression (PLSR)
-
-:white_square_button: Salmon map
-
-:white_square_button: Multidimensional scaling analysis (MDS)
-
-:white_square_button: Projection pursuit method (PP)
-
-:white_square_button: Linear Discriminant Analysis (LDA)
-
-:white_square_button: Mixed Discriminant Analysis (MDA)
-
-:white_square_button: Quadratic Discriminant Analysis (QDA)
-
-:white_square_button: Flexible Discriminant Analysis (FDA)
-
-
----
-
-### :heavy_check_mark: __Integrated algorithm__
-
-:white_square_button: Boosting
-
-:white_square_button: Bagging
-
-:white_square_button: AdaBoost
-
-:white_square_button: Stack generalization (mixed)
-
-:white_square_button: GBM algorithm
-
-:white_square_button: GBRT algorithm
-
-:white_square_button: Random forest
- 
- 
----
-
-
-### :heavy_check_mark: __Other algorithms__
-
-:white_square_button: Feature selection algorithm
-
-:white_square_button: Performance evaluation algorithm
-
-:white_square_button: Natural language processing
-
-:white_square_button: Computer vision
-
-:white_square_button: Recommended system
-
-:white_square_button: Reinforcement learning
-
-:white_square_button: Migration learning
+<h2 style="text-align: left;">Classification according to the function</h2>
+<table style="height: 496px; width: 629px;">
+<tbody>
+<tr>
+<td style="width: 241px;"><strong>&nbsp;Regression algorithm</strong></td>
+<td style="width: 372px;">
+<ul>
+<li>Linear regression</li>
+<li>&nbsp;Logistic regression</li>
+<li>Multiple Adaptive Regression (MARS)</li>
+<li>&nbsp;Local scatter smoothing estimate (LOESS)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;"><strong>&nbsp;Instance-based Learning&nbsp; &nbsp;Algorithm</strong></td>
+<td style="width: 372px;">
+<ul>
+<li>K &mdash; proximity algorithm (kNN)</li>
+<li>Learning vectorization (LVQ)</li>
+<li>Self-Organizing Mapping Algorithm (SOM)</li>
+<li>Local Weighted Learning Algorithm (LWL)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">
+<h3>&nbsp;<strong>Regularization Algorithm</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>Ridge Regression</li>
+<li>LASSO（Least Absolute Shrinkage and Selection Operator)</li>
+<li>Elastic Net</li>
+<li>Minimum Angle Regression (LARS)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Decision tree Algorithm</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>Classification and Regression Tree (CART)</li>
+<li>ID3 algorithm (Iterative Dichotomiser 3)</li>
+<li>C4.5 and C5.0</li>
+<li>CHAID（Chi-squared Automatic Interaction Detection）</li>
+<li>Random Forest</li>
+<li>Multivariate Adaptive Regression Spline (MARS)</li>
+<li>Gradient Boosting Machine (GBM)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Bayesian Algorithm</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>Naive Bayes</li>
+<li>Gaussian Bayes</li>
+<li>Polynomial naive Bayes</li>
+<li>AODE（Averaged One-Dependence Estimators）</li>
+<li>Bayesian Belief Network</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Kernel-based Algorithm</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>Support vector machine (SVM)</li>
+<li>Radial Basis Function (RBF)</li>
+<li>Linear Discriminate Analysis (LDA)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">&nbsp;
+<h3><strong>&nbsp;Clustering Algorithm</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>K &mdash; mean</li>
+<li>K &mdash; medium number</li>
+<li>EM algorithm</li>
+<li>Hierarchical clustering</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">&nbsp;
+<h3><strong>&nbsp;Association Rule&nbsp; &nbsp;Learning</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>&nbsp;Apriori algorithm</li>
+<li>&nbsp;Eclat algorithm</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">&nbsp;
+<h3><strong>&nbsp;Neural Networks</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>Sensor</li>
+<li>Backpropagation algorithm (BP)</li>
+<li>Hopfield network</li>
+<li>Radial Basis Function Network (RBFN)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Deep Learning</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>Deep Boltzmann Machine (DBM)</li>
+<li>Convolutional Neural Network (CNN)</li>
+<li>Recurrent neural network (RNN, LSTM)</li>
+<li>Stacked Auto-Encoder</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Dimensionality&nbsp; &nbsp;Reduction&nbsp; Algorithm</strong></h3>
+</td>
+<td style="width: 372px;">
+<ul>
+<li>Principal Component Analysis (PCA)</li>
+<li>Principal component regression (PCR)</li>
+<li>Partial least squares regression (PLSR)</li>
+<li>Salmon map</li>
+<li>Multidimensional scaling analysis (MDS)</li>
+<li>Projection pursuit method (PP)</li>
+<li>Linear Discriminant Analysis (LDA)</li>
+<li>Mixed Discriminant Analysis (MDA)</li>
+<li>Quadratic Discriminant Analysis (QDA)</li>
+<li>Flexible Discriminant Analysis (FDA</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Integrated Algorithm</strong></h3>
+</td>
+<td style="width: 372px;">&nbsp;
+<ul>
+<li>Boosting</li>
+<li>Bagging</li>
+<li>AdaBoost</li>
+<li>Stack generalization (mixed)</li>
+<li>GBM algorithm</li>
+<li>GBRT algorithm</li>
+<li>Random forest</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Other Algorithms</strong></h3>
+</td>
+<td style="width: 372px;">&nbsp;
+<ul>
+<li>Feature selection algorithm</li>
+<li>Performance evaluation algorithm</li>
+<li>Natural language processing</li>
+<li>Computer vision</li>
+<li>Recommended system</li>
+<li>Reinforcement learning</li>
+<li>Migration learning</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
 
 ---
 
