@@ -204,6 +204,7 @@
 <p>&nbsp;</p>
 
 ---
+## __Popular Machine Learning Algorithms__
 
 ## :one:__Linear Regression:__
 
