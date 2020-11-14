@@ -18,7 +18,9 @@
 <table style="height: 496px; width: 629px;">
 <tbody>
 <tr>
-<td style="width: 241px;"><strong>&nbsp;Regression algorithm</strong></td>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Regression algorithm</strong></h3>
+</td>
 <td style="width: 372px;">
 <ul>
 <li>Linear regression</li>
@@ -29,7 +31,9 @@
 </td>
 </tr>
 <tr>
-<td style="width: 241px;"><strong>&nbsp;Instance-based Learning&nbsp; &nbsp;Algorithm</strong></td>
+<td style="width: 241px;">
+<h3><strong>&nbsp;Instance-based Learning Algorithm</strong></h3>
+</td>
 <td style="width: 372px;">
 <ul>
 <li>K &mdash; proximity algorithm (kNN)</li>
@@ -109,7 +113,7 @@
 </tr>
 <tr>
 <td style="width: 241px;">&nbsp;
-<h3><strong>&nbsp;Association Rule&nbsp; &nbsp;Learning</strong></h3>
+<h3><strong>&nbsp;Association Rule Learning</strong></h3>
 </td>
 <td style="width: 372px;">
 <ul>
@@ -146,7 +150,7 @@
 </tr>
 <tr>
 <td style="width: 241px;">
-<h3><strong>&nbsp;Dimensionality&nbsp; &nbsp;Reduction&nbsp; Algorithm</strong></h3>
+<h3><strong>&nbsp;Dimensionality Reduction Algorithm</strong></h3>
 </td>
 <td style="width: 372px;">
 <ul>
