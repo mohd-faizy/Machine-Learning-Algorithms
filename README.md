@@ -4,7 +4,9 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://github.com/mohd-faizy/Machine-Learning-Algorithms/blob/master/LICENSE)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://opensource.com/resources/what-open-source)
 
-# __Machine Learning Algorithms__
+<strong><h1 align='center'>
+    Machine Learning Algorithms
+</h1></strong>
 
 <img src='https://github.com/mohd-faizy/__Machine_Learning_Algorithms__/blob/master/Algorithms_png/Head_ML.png'>
 
