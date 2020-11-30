@@ -1,7 +1,7 @@
 ![author](https://img.shields.io/badge/author-mohd--faizy-red)
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-markdown-blue)
 ![Language](https://img.shields.io/github/languages/top/mohd-faizy/Machine-Learning-Algorithms)
-![Platform](https://img.shields.io/badge/platform-Visual%20Studio%20Code-blue)
+![Platform](https://img.shields.io/badge/platform-jupyter%20labs-blue)
 ![Maintained](https://img.shields.io/maintenance/yes/2020)
 ![Last Commit](https://img.shields.io/github/last-commit/mohd-faizy/Machine-Learning-Algorithms)
 [![GitHub issues](https://img.shields.io/github/issues/mohd-faizy/Machine-Learning-Algorithms)](https://github.com/mohd-faizy/Machine-Learning-Algorithms/issues)
